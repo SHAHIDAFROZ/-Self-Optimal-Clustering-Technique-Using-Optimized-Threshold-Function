@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the implementation of a clustering algorithm using Python, focusing on the calculation of various metrics such as delta, delta1, silhouette indices (s1, s2), silhouette index (S), and partition index (PI). The algorithm clusters the pixels of an image into two clusters and computes these metrics over several iterations. Additionally, it visualizes the evolution of the silhouette index (S) and partition index (PI) across the iterations.
+Self-optimization clustering is a technique used in data analysis to automatically determine the optimal number of clusters within a dataset without prior knowledge of the dataset's structure. This method iteratively adjusts and fine-tunes the clustering process by evaluating various metrics, such as intra-cluster variance and inter-cluster distance, to find a balance that minimizes within-cluster differences while maximizing separation between clusters. By incorporating feedback mechanisms, self-optimization clustering continuously refines the clusters until a stable, optimal solution is achieved. This approach is particularly valuable in scenarios where the natural grouping of data is not evident, making it a powerful tool for uncovering hidden patterns and structures within complex datasets.
 
 ## Files
 
